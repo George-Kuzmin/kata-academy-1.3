@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'TT Lakes-bold';
+    src: url(/fonts/TTLakes/TTLakes-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: "TT Lakes-regular";
+    src: url(/fonts/TTLakes/TTLakes-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "TT Lakes-medium";
+    src: url(/fonts/TTLakes/TTLakes-Medium.woff) format("woff");
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    /* display: flex; */
+    width: 768px;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.side_menu {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+    /* border: 1px solid black; */
+    box-shadow: 10px 0 16px 5px rgba(14, 24, 80, 0.2);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 0 46px 0;
+}
+.nav__icon-background--pink {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ff3e79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.nav__cps-logo {
+    width: 97px;
+    height: 51px;
+    background-image: url("/pictures/logo\ cps.svg");
+    margin-right: 65px;
+}
+.nav__search-icon {
+    display: block;
+    background: url("/kata_1-4_side_menu/pictures-SM/search-for-side-menu.svg");
+    width: 17px;
+    height: 17px;
+}
+li {
+    list-style-type:none
+}
+.main__second-nav__list {
+    padding: 0;
+    margin: 0 0 268px 0;
+    display: flex;
+    flex-direction: column;
+}
+.main__second-nav__list__button--selected {
+    /* box-sizing: border-box; */
+    padding: 4px 20px !important;
+    color: #7E7E82 !important;
+    border: 4px solid #41F6D7;
+    /* border-radius: 10px 20px; */
+    border-width: 0 0 0 4px;
+}
+.main__second-nav__list li a {
+    padding-left: 24px;
+    font-family: "TT Lakes-medium";
+    font-size: 16px;
+    color: black;
+    display: block;
+    margin-bottom: 32px;
+    text-decoration: none;
+    line-height: 24px;
+}
+.main__second-nav__list li:last-child a {
+    margin-bottom: 0;
+}
+.main__second-nav__list li:first-child a {
+    margin-bottom: 24px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer__addit__menu {
+    display: flex;
+    padding-left: 24px;
+    margin: 0 0 16px 0;
+}
+.footer__addit__menu li:nth-child(1), 
+.footer__addit__menu li:nth-child(2) {
+    margin-right: 16px;
+}
+.footer__mail {
+    font-family: "TT Lakes-medium";
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 12px;
+    padding-left: 24px;
+}
+.footer__number {
+    font-family: 'TT Lakes-bold';
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+    padding-left: 24px;
+}
+.footer__languages {
+    display: flex;
+    padding-left: 24px;
+    margin-bottom: 32px;
+    gap: 7px;
+    font-family: "TT Lakes-medium";
+    font-size: 16px;
+}
+.footer__languages a {
+    text-decoration: none;
+    color: black;
+}
+.footer .footer__languages--selected {
+    color: #7E7E82;
+}
