@@ -139,3 +139,11 @@ li {
 .footer .footer__languages--selected {
     color: #7E7E82;
 }
+a:hover {
+    filter: blur(200%);
+}
+
+.nav__cps-logo:hover, .nav__icon-background--pink:hover, .main__second-nav__list li a:hover  {
+    filter: contrast(200%);
+    border:5px solid #ff3e79;
+}
