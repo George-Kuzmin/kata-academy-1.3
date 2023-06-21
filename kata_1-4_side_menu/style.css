@@ -49,6 +49,7 @@ body, html {
     justify-content: center;
     align-items: center;
     align-self: center;
+    transition: transform 1s;
 }
 .nav__cps-logo {
     width: 97px;
@@ -73,13 +74,14 @@ li {
 }
 .main__second-nav__list__button--selected {
     /* box-sizing: border-box; */
-    padding: 4px 20px !important;
+    /* padding: 4px 20px !important; */
     color: #7E7E82 !important;
-    border: 4px solid #41F6D7;
+    /* border: 4px solid #41F6D7; */
     /* border-radius: 10px 20px; */
     border-width: 0 0 0 4px;
 }
 .main__second-nav__list li a {
+    width: 275px;
     padding-left: 24px;
     font-family: "TT Lakes-medium";
     font-size: 16px;
@@ -88,7 +90,34 @@ li {
     margin-bottom: 32px;
     text-decoration: none;
     line-height: 24px;
+    transition: background-color 1s, transform 1s;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
+.main__second-nav__list li a:hover {
+    /* border:5px solid #ff3e79; */
+    background-color: #ff3e79;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    /* transform: translateX(15px); */
+}
+.main__second-nav__list li:first-child a::before {
+    content: "";
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    position: absolute;
+    left: 0;
+    top: 112px;
+}
+/* .main__second-nav__list li:first-child:hover {
+    transform: translate(10px);
+} */
+
 .main__second-nav__list li:last-child a {
     margin-bottom: 0;
 }
@@ -139,11 +168,8 @@ li {
 .footer .footer__languages--selected {
     color: #7E7E82;
 }
-a:hover {
-    filter: blur(200%);
-}
 
-.nav__cps-logo:hover, .nav__icon-background--pink:hover, .main__second-nav__list li a:hover  {
-    filter: contrast(200%);
-    border:5px solid #ff3e79;
+.nav__icon-background--pink:hover {
+    filter: contrast(300%);
+    transform: scale(150%);
 }
