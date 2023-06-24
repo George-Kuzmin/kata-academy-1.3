@@ -118,9 +118,9 @@ li {
     transform: translate(10px);
 } */
 
-.main__second-nav__list li:last-child a {
+/* .main__second-nav__list li:last-child a {
     margin-bottom: 0;
-}
+} */
 .main__second-nav__list li:first-child a {
     margin-bottom: 24px;
 }
