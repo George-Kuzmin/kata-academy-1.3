@@ -59,7 +59,7 @@ body, html {
 }
 .nav__search-icon {
     display: block;
-    background: url("/pictures-SM/search-for-side-menu.svg");
+    background: url("/pictures-side-menu/search-for-side-menu.svg");
     width: 17px;
     height: 17px;
 }
