@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'TT Lakes-bold';
-    src: url(/fonts/TTLakes/TTLakes-Bold.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Bold.woff) format("woff");
 }
 @font-face {
     font-family: "TT Lakes-regular";
-    src: url(/fonts/TTLakes/TTLakes-Regular.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Regular.woff) format("woff");
 }
 @font-face {
     font-family: "TT Lakes-medium";
-    src: url(/fonts/TTLakes/TTLakes-Medium.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Medium.woff) format("woff");
 }
 body, html {
     width: 100%;
@@ -54,12 +54,12 @@ body, html {
 .nav__cps-logo {
     width: 97px;
     height: 51px;
-    background-image: url("/pictures/logo\ cps.svg");
+    background-image: url("pictures/logo\ cps.svg");
     margin-right: 65px;
 }
 .nav__search-icon {
     display: block;
-    background: url("/pictures-side-menu/search-for-side-menu.svg");
+    background: url("pictures-side-menu/search-for-side-menu.svg");
     width: 17px;
     height: 17px;
 }
