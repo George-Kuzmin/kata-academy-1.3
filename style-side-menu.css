@@ -54,7 +54,7 @@ body, html {
 .nav__cps-logo {
     width: 97px;
     height: 51px;
-    background-image: url("/pictures/logo\ cps.svg");
+    background-image: url();
     margin-right: 65px;
 }
 .nav__search-icon {
