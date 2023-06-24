@@ -54,17 +54,17 @@ body, html {
 .nav__cps-logo {
     width: 97px;
     height: 51px;
-    background-image: url();
+    background-image: url("/pictures/logo\ cps.svg");
     margin-right: 65px;
 }
 .nav__search-icon {
     display: block;
-    background: url("/kata_1-4_side_menu/pictures-SM/search-for-side-menu.svg");
+    background: url("/pictures-SM/search-for-side-menu.svg");
     width: 17px;
     height: 17px;
 }
 li {
-    list-style-type:none
+    list-style-type:none;
 }
 .main__second-nav__list {
     padding: 0;
