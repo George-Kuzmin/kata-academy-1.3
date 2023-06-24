@@ -27,7 +27,7 @@ body, html {
     display: flex;
     flex-direction: column;
     width: 320px;
-    height: auto;
+    height: 100%;
     /* border: 1px solid black; */
     box-shadow: 10px 0 16px 5px rgba(14, 24, 80, 0.2);
 }
@@ -68,7 +68,7 @@ li {
 }
 .main__second-nav__list {
     padding: 0;
-    margin: 0 0 268px 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -172,4 +172,9 @@ li {
 .nav__icon-background--pink:hover {
     filter: contrast(300%);
     transform: scale(150%);
+}
+.proba {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
 }
