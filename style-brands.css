@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'TT Lakes-bold';
+    src: url(/fonts/TTLakes/TTLakes-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: "TT Lakes-regular";
+    src: url(/fonts/TTLakes/TTLakes-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "TT Lakes-medium";
+    src: url(/fonts/TTLakes/TTLakes-Medium.woff) format("woff");
+}
+
+body {
+    width: 320px;
+    height: auto;
+    border: 2px solid black;
+}
+.header {
+    width: 320px;
+    /* height: 80px; */
+    /* margin-bottom: 10px; */
+    background-color: white;
+}
+.header__title {
+    display: block;
+    font-family: "TT Lakes-regular";
+    text-transform: uppercase;
+    color: #7E7E82;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px;
+    /* border: 2px solid black; */
+}
+.main {
+    background-color: #F8F8F8;
+    display: flex;
+}
+.brands-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 15px;
+    overflow: auto;
+    /* min-width: none; */
+}
+.brands-list__item-style {
+    /* min-width: 0; */
+    width: 240px;
+    height: 72px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands-list__name {
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.brands-list__next-button {
+    border-radius: 50%;
+    border: 2px solid #FF3E79;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brands-list__move-sign {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #FF3E79;
+    border-top: none;
+    border-left: none;
+    transform: rotate(315deg);
+    margin-right: 3px;
+}
+
+ul li {
+    margin-right: 15px;
+}
+.wrapper-for-fix {
+    min-width: 0;
+}
+.swiper-slide {
+    height: auto;
+    display: flex;
+    flex-shrink: 0;
+  }
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #F8F8F8;
+}
+
+ul li {
+    width: 240px !important;
+    height: 72px !important;
+    margin: 10px !important;
+    display: flex !important;
+}
