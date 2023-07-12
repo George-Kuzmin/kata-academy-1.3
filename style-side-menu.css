@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'TT Lakes-bold';
-    src: url(/fonts/TTLakes/TTLakes-Bold.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Bold.woff) format("woff");
 }
 @font-face {
     font-family: "TT Lakes-regular";
-    src: url(/fonts/TTLakes/TTLakes-Regular.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Regular.woff) format("woff");
 }
 @font-face {
     font-family: "TT Lakes-medium";
-    src: url(/fonts/TTLakes/TTLakes-Medium.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Medium.woff) format("woff");
 }
 body, html {
     width: 100%;
@@ -27,7 +27,7 @@ body, html {
     display: flex;
     flex-direction: column;
     width: 320px;
-    height: auto;
+    height: 100%;
     /* border: 1px solid black; */
     box-shadow: 10px 0 16px 5px rgba(14, 24, 80, 0.2);
 }
@@ -54,21 +54,21 @@ body, html {
 .nav__cps-logo {
     width: 97px;
     height: 51px;
-    background-image: url("/pictures/logo\ cps.svg");
+    background-image: url("pictures/logo\ cps.svg");
     margin-right: 65px;
 }
 .nav__search-icon {
     display: block;
-    background: url("/kata_1-4_side_menu/pictures-SM/search-for-side-menu.svg");
+    background: url("pictures-side-menu/search-for-side-menu.svg");
     width: 17px;
     height: 17px;
 }
 li {
-    list-style-type:none
+    list-style-type:none;
 }
 .main__second-nav__list {
     padding: 0;
-    margin: 0 0 268px 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -118,9 +118,9 @@ li {
     transform: translate(10px);
 } */
 
-.main__second-nav__list li:last-child a {
+/* .main__second-nav__list li:last-child a {
     margin-bottom: 0;
-}
+} */
 .main__second-nav__list li:first-child a {
     margin-bottom: 24px;
 }
@@ -172,4 +172,9 @@ li {
 .nav__icon-background--pink:hover {
     filter: contrast(300%);
     transform: scale(150%);
+}
+.proba {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
 }
