@@ -1,83 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style-brands.css">
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="style-brands.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1.5 brands</title>
 </head>
 <body>
-    <header class="header">
-        <span class="header__title">
-            Ремонт техники различных брендов
-        </span>
-    </header>
-    <main class="main">
-        <div class="wrapper-for-fix">
-            <ul class="swiper brands-list">
-                <div class="swiper-wrapper">
-                    <li class="swiper-slide brands-list__item-style">
-                        <div class="brands-list__name">
-                            <img src="pictures/lenovo.svg" alt="">
-                        </div>
-                        <div class="brands-list__next-button">
-                            <div class="brands-list__move-sign"></div>
-                        </div>
-                    </li>
-                    <li class="swiper-slide brands-list__item-style">
-                        <div class="brands-list__name">
-                            <img src="pictures/samsung.svg" alt="">
-                        </div>
-                        <div class="brands-list__next-button">
-                            <div class="brands-list__move-sign"></div>
-                        </div>
-                    </li>
-                    <li class="swiper-slide brands-list__item-style">
-                        <div class="brands-list__name">
-                            <img src="pictures/apple.svg" alt="">
-                        </div>
-                        <div class="brands-list__next-button">
-                            <div class="brands-list__move-sign"></div>
-                        </div>
-                    </li>
-                    <li class="swiper-slide brands-list__item-style">
-                        <div class="brands-list__name">
-                            <img src="pictures/bosch.svg" alt="">
-                        </div>
-                        <div class="brands-list__next-button">
-                            <div class="brands-list__move-sign"></div>
-                        </div>
-                    </li>
-                    <li class="swiper-slide brands-list__item-style">
-                        <div class="brands-list__name">
-                            <img src="pictures/hp.svg" alt="">
-                        </div>
-                        <div class="brands-list__next-button">
-                            <div class="brands-list__move-sign"></div>
-                        </div>
-                    </li>
-                    <li class="swiper-slide brands-list__item-style">
-                        <div class="brands-list__name">
-                            <img src="pictures/acer.svg" alt="">
-                        </div>
-                        <div class="brands-list__next-button">
-                            <div class="brands-list__move-sign"></div>
-                        </div>
-                    </li>
+    <div class="wrapper-body">
+        <header class="header">
+            <span class="header__title">
+                Ремонт техники различных брендов
+            </span>
+        </header>
+        <main class="main">
+            <div class="swiper">
+                    <ul class="swiper-wrapper brands-list">
+                        <li class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/lenovo.svg" alt="lenovo">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/samsung.svg" alt="samsung">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/apple.svg" alt="apple">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li id="viewsonic" class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/ViewSonic.svg" alt="Viewsonic">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/bosch.svg" alt="bosch">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/hp.svg" alt="hp">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/acer.svg" alt="acer">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li id="sony" class="swiper-slide brands-list__item-style visible">
+                            <div class="brands-list__name">
+                                <img src="pictures/Sony.svg" alt="sony">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style hidden">
+                            <div class="brands-list__name">
+                                <img src="pictures/lenovo.svg" alt="lenovo1">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style hidden">
+                            <div class="brands-list__name">
+                                <img src="pictures/samsung.svg" alt="samsung1">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide brands-list__item-style hidden">
+                            <div class="brands-list__name">
+                                <img src="pictures/apple.svg" alt="apple1">
+                            </div>
+                            <div class="brands-list__next-button">
+                                <div class="brands-list__move-sign"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>  
+            </div>
+            <div id="showMore" class="more-btn">
+                <div class="more-btn__tics">
+                    <div class="tic"></div>
+                    <div class="tic"></div>
                 </div>
-                <div class="swiper-pagination"></div>
-            </ul>
-        </div>
-        
-        <div>
-
-        </div>
-    </main>
-</body>
+                <span class="more-btn__text">Показать всё</span>
+            </div>
+        </main>
+    </body>
+    </div>
+    
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 </html>
