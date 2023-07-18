@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'TT Lakes-bold';
-    src: url(/fonts/TTLakes/TTLakes-Bold.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Bold.woff) format("woff");
 }
 @font-face {
     font-family: "TT Lakes-regular";
-    src: url(/fonts/TTLakes/TTLakes-Regular.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Regular.woff) format("woff");
 }
 @font-face {
     font-family: "TT Lakes-medium";
-    src: url(/fonts/TTLakes/TTLakes-Medium.woff) format("woff");
+    src: url(fonts/TTLakes/TTLakes-Medium.woff) format("woff");
 }
 *{
     box-sizing: border-box;
